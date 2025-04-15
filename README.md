@@ -1,13 +1,13 @@
 
 # 📊 Outlier Detection using Probabilistic Methods: COPOD & ABOD
 
-This project presents both a **presentation** and a **review paper** exploring two advanced probabilistic outlier detection methods — **COPOD** (Copula-Based Outlier Detection) and **ABOD** (Angle-Based Outlier Detection). The work was completed as part of the coursework at **TU Dortmund University**, Department of Statistics, during the Winter Semester 2024/25.
+This project presents both a **presentation** and a **review paper** exploring two advanced probabilistic outlier detection methods — **COPOD** (Copula-Based Outlier Detection) and **ABOD** (Angle-Based Outlier Detection). The work was completed as part of the coursework at **TU Dortmund University**, Department of Statistics.
 
 ---
 
 ## 📌 Project Components
 
-- **🎤 Presentation**: Introduced the core concepts of anomaly detection, focusing on the mathematical foundation, methodology, and visualization of COPOD and ABOD. Included hands-on implementation using the `PyOD` library.
+- **🎤 Presentation**: Introduced the core concepts of anomaly detection, focusing on the mathematical foundation, methodology, and visualization of COPOD and ABOD. 
 - **📄 Review Paper**: Delivered a theoretical and performance-based comparison of COPOD and ABOD, highlighting use cases, strengths, and limitations based on empirical benchmarks.
 
 ---
@@ -41,7 +41,6 @@ This project presents both a **presentation** and a **review paper** exploring t
 
 ## 🔬 Empirical Evaluation
 
-- Both methods were implemented using **`PyOD`**.
 - Performance evaluated on **30 benchmark datasets** from the ODDS repository.
 - **COPOD** outperformed **ABOD** in:
   - 24 out of 30 datasets in terms of ROC-AUC
@@ -61,7 +60,7 @@ This project presents both a **presentation** and a **review paper** exploring t
 ## 🛠️ Tools & Technologies
 
 - **Python 3.12.6**
-- **Libraries**: `pyod`, `pandas`, `numpy`, `matplotlib`, `scikit-learn`
+- **Libraries**: pandas`, `numpy`, `matplotlib`, `scikit-learn`
 - **IDE**: Visual Studio Code
 
 ---
